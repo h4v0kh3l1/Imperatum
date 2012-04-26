@@ -1,0 +1,78 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2012.04.26.23.34.51;	author WangHeli;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2012.04.26.19.30.42;	author WangHeli;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.04.26.19.27.20;	author WangHeli;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@more python learning. todo: add parts needed for running code
+@
+text
+@values = []
+pc = 0
+
+def read(table, n, value):
+    if (len(table) < n):
+        table[n]=value
+    else:
+        table += [value]
+    n += 1
+    return
+
+read(values,pc,"potato")
+read(values,pc," is")
+read(values,pc,"KAWAII!!!")
+print values
+
+def hello(this):
+    print "hello, world!\n"
+    return this
+def main():
+    print hello("Again!")
+if __name__ == '__main__':
+    main()
+@
+
+
+1.2
+log
+@test emacs git usage
+@
+text
+@d1 23
+a23 1
+def read():
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+def read:
+@
