@@ -1,0 +1,29 @@
+Imperatum specs
+
+all words are in upper-case, no punctuation allowed. only roman letters allowed (i.e. no 'J', 'U', 'W')
+
+variables are declared as 3 types: veritas (boolean), numerus (int), verbum (string)
+
+variables are assigned as [type] [name] est [value]
+
+veritas have two types: verus, and falsus.
+
+boolean operators: et, aut, alter. 
+	syntax:
+	and - et [v] et [v] 
+	or - aut [v] aut [v]
+	xor - alter [v] aut [v]
+
+numbers will be represented in Old Roman numeration. Use 'XIIII', not 'XIV'
+addition, subtraction, multiplication will be supported. 
+zero, negative numbers, and division are not supported.
+
+verbum will be terminated by a keyword 'terminus'. 'terminus' will be escaped by 'specialis', which is escaped by itself.
+
+conditional statements: 
+if then else syntax: si [condition] tum [statement] alioqui [statement] terminus
+while syntax: dum [condition] tum [statement] terminus
+for syntax: quisque [collection] something [statement] terminus
+
+TODO: ordinal datastructure, functions
+implement vm, lae execution style.
